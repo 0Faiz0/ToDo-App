@@ -1,0 +1,35 @@
+.list{
+    color: white;
+    width: 300px;
+    background-color: #221f3b;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+}
+
+.list p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.list p span button{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.list p span button:focus{
+    outline: none;
+}
+
+
+
